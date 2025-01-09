@@ -145,29 +145,29 @@ export const TAG_OPTIONS = [
 ];
 
 export type FlagNames = 
-  'ad' | 'andorra' | 'ae' | 'united arab emirates' | 'uae' | 'af' | 'afghanistan' | 'ag' | 'antigua' | 'ai' |
+  'ad' | 'andorra' | 'ae' | 'united arab emirates' | 'uae' | 'af' | 'afghanistan' | 'ag' | 'antigua and barbuda' | 'ai' |
   'al' | 'albania' | 'am' | 'armenia' | 'an' | 'ao' | 'angola' | 'ar' |
   'argentina' | 'as' | 'at' | 'austria' | 'au' | 'australia' | 'aw' | 'ax' |
-  'az' | 'azerbaijan' | 'ba' | 'bosnia' | 'bb' | 'barbados' | 'bd' | 'bangladesh' | 'be' |
+  'az' | 'azerbaijan' | 'ba' | 'bosnia and herzegovina' | 'bb' | 'barbados' | 'bd' | 'bangladesh' | 'be' |
   'belgium' | 'bf' | 'burkina faso' | 'bg' | 'bulgaria' | 'bh' | 'bahrain' | 'bi' | 'burundi' | 'bj' | 'benin' |
   'bm' | 'bn' | 'brunei' | 'bo' | 'bolivia' | 'br' | 'brazil' | 'bs' | 'bahamas' | 'bt' | 'bhutan' |
   'bv' | 'bw' | 'botswana' | 'by' | 'belarus' | 'bz' | 'belize' | 'ca' | 'canada' | 'cc' |
-  'cd' | 'congo' | 'cf' | 'central african republic' | 'cg' | 'congo brazzaville' | 'ch' |
-  'switzerland' | 'ci' | 'cote divoire' | 'ck' | 'cl' | 'chile' | 'cm' | 'cameroon' | 'cn' |
-  'china' | 'co' | 'colombia' | 'cr' | 'costa rica' | 'cs' | 'cu' | 'cuba' | 'cv' | 'cape verde' | 'cx' |
+  'cd' | 'congo' | 'cf' | 'central african republic' | 'cg' | 'democratic republic of the congo' | 'ch' |
+  'switzerland' | 'ci' | 'côte d’ivoire' | 'ck' | 'cl' | 'chile' | 'cm' | 'cameroon' | 'cn' |
+  'china' | 'co' | 'colombia' | 'cr' | 'costa rica' | 'cs' | 'cu' | 'cuba' | 'cv' | 'cabo verde' | 'cx' |
   'cy' | 'cyprus' | 'cz' | 'czech republic' | 'de' | 'germany' | 'dj' | 'djibouti' | 'dk' |
   'denmark' | 'dm' | 'dominica' | 'do' | 'dominican republic' | 'dz' | 'algeria' | 'ec' | 'ecuador' | 'ee' |
   'estonia' | 'eg' | 'egypt' | 'eh' | 'er' | 'eritrea' | 'es' | 'spain' | 'et' | 'ethiopia' |
   'eu' | 'fi' | 'finland' | 'fj' | 'fiji' | 'fk' | 'fm' | 'micronesia' |
   'fo' | 'fr' | 'france' | 'ga' | 'gabon' | 'gb' | 'united kingdom' | 'gd' | 'grenada' | 'ge' |
-  'georgia' | 'gf' | 'gh' | 'ghana' | 'gi' | 'gl' | 'gm' | 'gambia' |
+  'georgia' | 'gf' | 'gh' | 'ghana' | 'gi' | 'gl' | 'gm' | 'the gambia' |
   'gn' | 'guinea' | 'gp' | 'gq' | 'equatorial guinea' | 'gr' | 'greece' | 'gs' |
   'gt' | 'guatemala' | 'gu' | 'gw' | 'guinea-bissau' | 'gy' | 'guyana' | 'hk' | 'hm' |
   'hn' | 'honduras' | 'hr' | 'croatia' | 'ht' | 'haiti' | 'hu' | 'hungary' | 'id' | 'indonesia' |
   'ie' | 'ireland' | 'il' | 'israel' | 'in' | 'india' | 'io' | 'iq' | 'iraq' | 'ir' |
   'iran' | 'is' | 'iceland' | 'it' | 'italy' | 'jm' | 'jamaica' | 'jo' | 'jordan' | 'jp' | 'japan' | 'ke' | 'kenya' |
   'kg' | 'kyrgyzstan' | 'kh' | 'cambodia' | 'ki' | 'kiribati' | 'km' | 'comoros' | 'kn' | 'saint kitts and nevis' |
-  'kp' | 'north korea' | 'kr' | 'Republic of korea' | 'kw' | 'kuwait' | 'ky' | 'kz' | 'kazakhstan' |
+  'kp' | 'democratic people’s republic of korea' | 'kr' | 'Republic of korea' | 'kw' | 'kuwait' | 'ky' | 'kz' | 'kazakhstan' |
   'la' | 'laos' | 'lb' | 'lebanon' | 'lc' | 'saint lucia' | 'li' | 'liechtenstein' | 'lk' | 'sri lanka' | 'lr' |
   'liberia' | 'ls' | 'lesotho' | 'lt' | 'lithuania' | 'lu' | 'luxembourg' | 'lv' | 'latvia' | 'ly' | 'libya' | 'ma' |
   'morocco' | 'mc' | 'monaco' | 'md' | 'moldova' | 'me' | 'montenegro' | 'mg' | 'madagascar' | 'mh' |
@@ -177,18 +177,18 @@ export type FlagNames =
   'mz' | 'mozambique' | 'na' | 'namibia' | 'nc' | 'ne' | 'niger' | 'nf' | 'ng' |
   'nigeria' | 'ni' | 'nicaragua' | 'nl' | 'netherlands' | 'no' | 'norway' | 'np' | 'nepal' | 'nr' | 'nauru' |
   'nu' | 'nz' | 'new zealand' | 'om' | 'oman' | 'pa' | 'panama' | 'pe' | 'peru' | 'pf' |
-  'pg' | 'new guinea' | 'ph' | 'philippines' | 'pk' | 'pakistan' | 'pl' | 'poland' | 'pm' | 'pn' |
+  'pg' | 'papua new guinea' | 'ph' | 'philippines' | 'pk' | 'pakistan' | 'pl' | 'poland' | 'pm' | 'pn' |
   'pr' | 'ps' | 'palestine' | 'pt' | 'portugal' | 'pw' | 'palau' | 'py' |
   'paraguay' | 'qa' | 'qatar' | 're' | 'ro' | 'romania' | 'rs' | 'serbia' | 'ru' | 'russia' | 'rw' |
   'rwanda' | 'sa' | 'saudi arabia' | 'sb' | 'solomon islands' | 'sc' | 'seychelles' | 'gb sct' | 'scotland' | 'sd' |
   'sudan' | 'se' | 'sweden' | 'sg' | 'singapore' | 'sh' | 'si' | 'slovenia' | 'sj' |
   'jan mayen' | 'sk' | 'slovakia' | 'sl' | 'sierra leone' | 'sm' | 'san marino' | 'sn' | 'senegal' | 'so' |
-  'somalia' | 'sr' | 'suriname' | 'st' | 'sao tome' | 'sv' | 'el salvador' | 'sy' | 'syria' | 'sz' | 'swaziland' |
+  'somalia' | 'sr' | 'suriname' | 'st' | 'sao tome and principe' | 'sv' | 'el salvador' | 'sy' | 'syria' | 'sz' | 'eswatini' |
   'tc' | 'td' | 'chad' | 'tf' | 'tg' | 'togo' | 'th' | 'thailand' | 'tj' |
-  'tajikistan' | 'tk' | 'tl' | 'timorleste' | 'tm' | 'turkmenistan' | 'tn' | 'tunisia' | 'to' | 'tonga' |
-  'tr' | 'turkey' | 'tt' | 'trinidad' | 'tv' | 'tuvalu' | 'tw' | 'tz' | 'tanzania' | 'ua' | 'ukraine' |
+  'tajikistan' | 'tk' | 'tl' | 'timor-leste' | 'tm' | 'turkmenistan' | 'tn' | 'tunisia' | 'to' | 'tonga' |
+  'tr' | 'turkey' | 'tt' | 'trinidad and tobago' | 'tv' | 'tuvalu' | 'tw' | 'tz' | 'tanzania' | 'ua' | 'ukraine' |
   'ug' | 'uganda' | 'um' | 'us' | 'america' | 'united states' | 'uy' | 'uruguay' | 'uz' |
-  'uzbekistan' | 'va' | 'vatican city' | 'vc' | 'saint vincent' | 've' | 'venezuela' | 'vg' |
+  'uzbekistan' | 'va' | 'holy see' | 'vc' | 'saint vincent and the grenadines' | 've' | 'venezuela' | 'vg' |
   'vi' | 'vn' | 'vietnam' | 'vu' | 'vanuatu' | 'gb wls' | 'wales' |
   'wf' | 'ws' | 'samoa' | 'ye' | 'yemen' | 'yt' | 'za' | 'south africa' | 'ss' | 'south sudan' | 
   'zm' | 'zambia' | 'zw' | 'zimbabwe';
@@ -199,7 +199,7 @@ export const COUNTRY_OPTIONS = [
   {key: 'dz', value: 'dz', flag: 'dz', text: 'Algeria'},
   {key: 'ad', value: 'ad', flag: 'ad', text: 'Andorra'},
   {key: 'ao', value: 'ao', flag: 'ao', text: 'Angola'},
-  {key: 'ag', value: 'ag', flag: 'ag', text: 'Antigua'},
+  {key: 'ag', value: 'ag', flag: 'ag', text: 'Antigua and Barbuda'},
   {key: 'ar', value: 'ar', flag: 'ar', text: 'Argentina'},
   {key: 'am', value: 'am', flag: 'am', text: 'Armenia'},
   {key: 'au', value: 'au', flag: 'au', text: 'Australia'},
@@ -215,7 +215,7 @@ export const COUNTRY_OPTIONS = [
   {key: 'bj', value: 'bj', flag: 'bj', text: 'Benin'},
   {key: 'bt', value: 'bt', flag: 'bt', text: 'Bhutan'},
   {key: 'bo', value: 'bo', flag: 'bo', text: 'Bolivia'},
-  {key: 'ba', value: 'ba', flag: 'ba', text: 'Bosnia'},
+  {key: 'ba', value: 'ba', flag: 'ba', text: 'Bosnia and Herzegovina'},
   {key: 'bw', value: 'bw', flag: 'bw', text: 'Botswana'},
   {key: 'br', value: 'br', flag: 'br', text: 'Brazil'},
   {key: 'bn', value: 'bn', flag: 'bn', text: 'Brunei'},
@@ -225,17 +225,17 @@ export const COUNTRY_OPTIONS = [
   {key: 'kh', value: 'kh', flag: 'kh', text: 'Cambodia'},
   {key: 'cm', value: 'cm', flag: 'cm', text: 'Cameroon'},
   {key: 'ca', value: 'ca', flag: 'ca', text: 'Canada'},
-  {key: 'cv', value: 'cv', flag: 'cv', text: 'Cape Verde'},
+  {key: 'cv', value: 'cv', flag: 'cv', text: 'Cabo Verde'},
   {key: 'cf', value: 'cf', flag: 'cf', text: 'Central African Republic'},
   {key: 'td', value: 'td', flag: 'td', text: 'Chad'},
   {key: 'cl', value: 'cl', flag: 'cl', text: 'Chile'},
   {key: 'cn', value: 'cn', flag: 'cn', text: 'China'},
   {key: 'co', value: 'co', flag: 'co', text: 'Colombia'},
   {key: 'km', value: 'km', flag: 'km', text: 'Comoros'},
-  {key: 'cg', value: 'cg', flag: 'cg', text: 'Congo Brazzaville'},
-  {key: 'cd', value: 'cd', flag: 'cd', text: 'Congo'},
+  {key: 'cg', value: 'cg', flag: 'cg', text: 'Republic of the Congo'},
+  {key: 'cd', value: 'cd', flag: 'cd', text: 'Democratic Republic of the Congo'},
   {key: 'cr', value: 'cr', flag: 'cr', text: 'Costa Rica'},
-  {key: 'ci', value: 'ci', flag: 'ci', text: 'Cote Divoire'},
+  {key: 'ci', value: 'ci', flag: 'ci', text: 'Côte d’Ivoire'},
   {key: 'hr', value: 'hr', flag: 'hr', text: 'Croatia'},
   {key: 'cu', value: 'cu', flag: 'cu', text: 'Cuba'},
   {key: 'cy', value: 'cy', flag: 'cy', text: 'Cyprus'},
@@ -256,7 +256,7 @@ export const COUNTRY_OPTIONS = [
   {key: 'fi', value: 'fi', flag: 'fi', text: 'Finland'},
   {key: 'fr', value: 'fr', flag: 'fr', text: 'France'},
   {key: 'ga', value: 'ga', flag: 'ga', text: 'Gabon'},
-  {key: 'gm', value: 'gm', flag: 'gm', text: 'Gambia'},
+  {key: 'gm', value: 'gm', flag: 'gm', text: 'The Gambia'},
   {key: 'ge', value: 'ge', flag: 'ge', text: 'Georgia'},
   {key: 'de', value: 'de', flag: 'de', text: 'Germany'},
   {key: 'gh', value: 'gh', flag: 'gh', text: 'Ghana'},
@@ -317,12 +317,12 @@ export const COUNTRY_OPTIONS = [
   {key: 'nr', value: 'nr', flag: 'nr', text: 'Nauru'},
   {key: 'np', value: 'np', flag: 'np', text: 'Nepal'},
   {key: 'nl', value: 'nl', flag: 'nl', text: 'Netherlands'},
-  {key: 'pg', value: 'pg', flag: 'pg', text: 'New Guinea'},
+  {key: 'pg', value: 'pg', flag: 'pg', text: 'Papua New Guinea'},
   {key: 'nz', value: 'nz', flag: 'nz', text: 'New Zealand'},
   {key: 'ni', value: 'ni', flag: 'ni', text: 'Nicaragua'},
   {key: 'ne', value: 'ne', flag: 'ne', text: 'Niger'},
   {key: 'ng', value: 'ng', flag: 'ng', text: 'Nigeria'},
-  {key: 'kp', value: 'kp', flag: 'kp', text: 'North Korea'},
+  {key: 'kp', value: 'kp', flag: 'kp', text: 'Democratic People’s Republic of Korea'},
   {key: 'no', value: 'no', flag: 'no', text: 'Norway'},
   {key: 'om', value: 'om', flag: 'om', text: 'Oman'},
   {key: 'pk', value: 'pk', flag: 'pk', text: 'Pakistan'},
@@ -340,10 +340,10 @@ export const COUNTRY_OPTIONS = [
   {key: 'rw', value: 'rw', flag: 'rw', text: 'Rwanda'},
   {key: 'kn', value: 'kn', flag: 'kn', text: 'Saint Kitts and Nevis'},
   {key: 'lc', value: 'lc', flag: 'lc', text: 'Saint Lucia'},
-  {key: 'vc', value: 'vc', flag: 'vc', text: 'Saint Vincent'},
+  {key: 'vc', value: 'vc', flag: 'vc', text: 'Saint Vincent and the Grenadines'},
   {key: 'ws', value: 'ws', flag: 'ws', text: 'Samoa'},
   {key: 'sm', value: 'sm', flag: 'sm', text: 'San Marino'},
-  {key: 'st', value: 'st', flag: 'st', text: 'Sao Tome'},
+  {key: 'st', value: 'st', flag: 'st', text: 'São Tomé and Príncipe'},
   {key: 'sa', value: 'sa', flag: 'sa', text: 'Saudi Arabia'},
   {key: 'sn', value: 'sn', flag: 'sn', text: 'Senegal'},
   {key: 'rs', value: 'rs', flag: 'rs', text: 'Serbia'},
@@ -368,10 +368,10 @@ export const COUNTRY_OPTIONS = [
   {key: 'tj', value: 'tj', flag: 'tj', text: 'Tajikistan'},
   {key: 'tz', value: 'tz', flag: 'tz', text: 'Tanzania'},
   {key: 'th', value: 'th', flag: 'th', text: 'Thailand'},
-  {key: 'tl', value: 'tl', flag: 'tl', text: 'Timorleste'},
+  {key: 'tl', value: 'tl', flag: 'tl', text: 'Timor-Leste'},
   {key: 'tg', value: 'tg', flag: 'tg', text: 'Togo'},
   {key: 'to', value: 'to', flag: 'to', text: 'Tonga'},
-  {key: 'tt', value: 'tt', flag: 'tt', text: 'Trinidad'},
+  {key: 'tt', value: 'tt', flag: 'tt', text: 'Trinidad and Tobago'},
   {key: 'tn', value: 'tn', flag: 'tn', text: 'Tunisia'},
   {key: 'tr', value: 'tr', flag: 'tr', text: 'Turkey'},
   {key: 'tm', value: 'tm', flag: 'tm', text: 'Turkmenistan'},
@@ -383,7 +383,7 @@ export const COUNTRY_OPTIONS = [
   {key: 'uy', value: 'uy', flag: 'uy', text: 'Uruguay'},
   {key: 'uz', value: 'uz', flag: 'uz', text: 'Uzbekistan'},
   {key: 'vu', value: 'vu', flag: 'vu', text: 'Vanuatu'},
-  {key: 'va', value: 'va', flag: 'va', text: 'Vatican City'},
+  {key: 'va', value: 'va', flag: 'va', text: 'Holy See'},
   {key: 've', value: 've', flag: 've', text: 'Venezuela'},
   {key: 'vn', value: 'vn', flag: 'vn', text: 'Vietnam'},
   {key: 'ye', value: 'ye', flag: 'ye', text: 'Yemen'},
