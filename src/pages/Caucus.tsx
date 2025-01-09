@@ -51,6 +51,8 @@ import firebase from "firebase/compat/app";
 import {DragDropContext, Draggable, DraggableProvided, Droppable, DropResult} from "react-beautiful-dnd";
 import { Helmet } from 'react-helmet';
 import { getDatabase, ref } from 'firebase/database';
+import CustomFlag from '../components/CustomFlag'; // Adjust the path as needed
+
 
 interface Props extends RouteComponentProps<URLParameters> {
 }
@@ -323,7 +325,8 @@ class SpeakerFeedEntry extends React.PureComponent<{
       <Feed.Content>
         <Feed.Summary>
           <Feed.User>
-            {data && <Flag name={nameToFlagCode(data.who)}/>}
+            {/* Replace Flag with CustomFlag */}
+            {data && <CustomFlag name={data.who} />}
             {data ? data.who : ''}
           </Feed.User>
           <Feed.Date>{data ? data.duration.toString() + ' seconds' : ''}</Feed.Date>
