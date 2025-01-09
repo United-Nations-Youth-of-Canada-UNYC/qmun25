@@ -5,7 +5,6 @@
     width: 1.5em;
     height: 1em;
     display: inline-block;
-    border-radius: 2px;
 }
 
 /* Republic of Korea */
@@ -15,8 +14,8 @@
     background-position: center;
     width: 1.5em; /* Adjust width */
     height: 1em; /* Adjust height */
+    border: 0.1px solid;
     display: inline-block;
-    border-radius: 2px; /* Optional for rounded corners */
 }  
 
 /* Ecuador */
