@@ -21,6 +21,8 @@ import {CommitteeData, CommitteeID, pushMember, Template} from '../models/commit
 import { TemplateAdder } from '../components/template';
 import {COUNTRY_OPTIONS} from "../constants";
 import { Helmet } from 'react-helmet';
+import CustomFlag from '../components/CustomFlag'; // Adjust the path as needed
+
 
 interface Props extends RouteComponentProps<URLParameters> {
   committee: CommitteeData;
@@ -56,11 +58,16 @@ export default class Admin extends React.Component<Props, State> {
     };
   }
 
-  renderMemberItem = (id: MemberID, member: MemberData, fref: firebase.database.Reference) => {
+  renderMemberItem = (
+    id: MemberID,
+    member: MemberData,
+    fref: firebase.database.Reference
+  ) => {
     return (
       <Table.Row key={id}>
         <Table.Cell>
-          <Flag name={nameToFlagCode(member.name)} />
+          {/* Use CustomFlag for rendering flags */}
+          <CustomFlag name={member.name} className="custom-flag" />
           {member.name}
         </Table.Cell>
         <Table.Cell>
@@ -74,17 +81,17 @@ export default class Admin extends React.Component<Props, State> {
           />
         </Table.Cell>
         <Table.Cell collapsing>
-          <Checkbox 
-            toggle 
-            checked={member.present} 
-            onChange={checkboxHandler<MemberData>(fref, 'present')} 
+          <Checkbox
+            toggle
+            checked={member.present}
+            onChange={checkboxHandler<MemberData>(fref, 'present')}
           />
         </Table.Cell>
         <Table.Cell collapsing>
-          <Checkbox 
-            toggle 
-            checked={member.voting} 
-            onChange={checkboxHandler<MemberData>(fref, 'voting')} 
+          <Checkbox
+            toggle
+            checked={member.voting}
+            onChange={checkboxHandler<MemberData>(fref, 'voting')}
           />
         </Table.Cell>
         <Table.Cell collapsing>
@@ -98,7 +105,8 @@ export default class Admin extends React.Component<Props, State> {
         </Table.Cell>
       </Table.Row>
     );
-  }
+  };
+  
 
   canPushMember = (member: MemberOption) => { 
     const members = this.props.committee.members || {};
