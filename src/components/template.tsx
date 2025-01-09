@@ -4,6 +4,8 @@ import {useState} from 'react';
 import {nameToFlagCode} from "../modules/member"
 import {makeDropdownOption} from "../utils";
 import {CommitteeID, pushTemplateMembers, Template, TEMPLATE_TO_MEMBERS} from "../models/committee";
+import CustomFlag from '../components/CustomFlag'; // Adjust the path based on your project structure
+
 
 export function TemplatePreview(props: { template?: Template }) {
   if (!props.template) {
@@ -17,7 +19,7 @@ export function TemplatePreview(props: { template?: Template }) {
       {TEMPLATE_TO_MEMBERS[props.template]
         .map(member =>
           <div key={member.name}>
-            <Flag name={nameToFlagCode(member.name)} />
+            <CustomFlag name={nameToFlagCode(member.name)} />
             {member.name}
           </div>
         )}
