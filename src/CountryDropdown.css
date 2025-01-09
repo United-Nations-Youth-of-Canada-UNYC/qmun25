@@ -1,0 +1,70 @@
+/* South Sudan */
+.custom-ss.flag {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7a/Flag_of_South_Sudan.svg');
+    background-size: cover;
+    width: 1.5em;
+    height: 1em;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+/* Republic of Korea */
+.custom-kr.flag {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/Flag_of_South_Korea.svg'); /* URL of the South Korea flag */
+    background-size: cover;
+    background-position: center;
+    width: 1.5em; /* Adjust width */
+    height: 1em; /* Adjust height */
+    display: inline-block;
+    border-radius: 2px; /* Optional for rounded corners */
+}  
+
+/* Ecuador */
+.custom-ec.flag {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e8/Flag_of_Ecuador.svg'); /* Replace with the URL for Ecuador's flag */
+    background-size: cover;
+    width: 1.5em; /* Adjust width */
+    height: 1em; /* Adjust height */
+    display: inline-block;
+}
+
+/* Lesotho */
+.custom-ls.flag {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4a/Flag_of_Lesotho.svg'); /* URL of Lesotho's flag */
+    background-size: cover;
+    width: 1.5em; /* Adjust width */
+    height: 1em; /* Adjust height */
+    display: inline-block;
+}
+
+
+/* Libya */
+.custom-ly.flag {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/05/Flag_of_Libya.svg'); /* Libya flag URL */
+    background-size: 100% auto; /* Ensure the flag scales correctly */
+    background-position: center center; /* Center the crescent and star */
+    background-repeat: no-repeat; /* Avoid tiling */
+    width: 1.5em; /* Adjust width */
+    height: 1em; /* Adjust height */
+    display: inline-block;
+}  
+  
+
+/* Myanmar */
+.custom-mm.flag {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/8/8c/Flag_of_Myanmar.svg');
+    background-size: cover;
+    width: 1.5em; /* Adjust width */
+    height: 1em; /* Adjust height */
+    display: inline-block;
+}
+  
+/* Tuvalu */
+.custom-tv.flag {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/38/Flag_of_Tuvalu.svg');
+    background-size: cover;
+    width: 1.5em; /* Adjust width */
+    height: 1em; /* Adjust height */
+    display: inline-block;
+}
+  
