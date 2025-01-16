@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "qmun"
-  }
+    "default": "qmun",
+    "hub": "qmun2025"
+  },
+  "targets": {},
+  "etags": {}
 }
